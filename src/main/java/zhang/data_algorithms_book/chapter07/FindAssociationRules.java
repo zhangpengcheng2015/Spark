@@ -13,7 +13,7 @@ import scala.Tuple3;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+//Spark
 public class FindAssociationRules {
     static JavaSparkContext createJavaSparkContext(){
         SparkConf conf = new SparkConf().setAppName("FindAssociationRules").setMaster("local");
